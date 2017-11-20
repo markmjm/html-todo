@@ -20,3 +20,8 @@ $("input[type='text']").on('keypress', function (e) {
         $('ul').append(thetext);
     }
 })
+
+$("#plus").on('click', function () {
+    $('input[type="text"]').fadeToggle();
+})
+
